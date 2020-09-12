@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <style>
+        body {
+            background: url(../bg.jpg) no-repeat;
+            background-size: cover;
+            height: calc(100vh - 80px);
+        }
+
+        h1 {
+
+            color: #67228a;
+            border-bottom: 2px solid #b70000;
+            /* padding: 2px auto; */
+            display: inline-block;
+        }
+
+        .con {
+            /* border: 2px solid #f79191; */
+
+            display: block;
+            width: 447px;
+            margin: 185px auto;
+        }
+
+        .con input {
+            background: none;
+            width: 255px;
+            margin: 12px auto;
+            padding: 5px 10px;
+            font-size: 20px;
+            border: none;
+            color: black;
+            border-bottom: 2px solid #211818;
+            outline: none;
+        }
+
+
+        .btn {
+            cursor: pointer;
+            color: red;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 3px 12px;
+            border: 2px solid gray;
+            border-radius: 10px;
+        }
+
+        .btn:hover {
+            background-color: violet;
+            color: black;
+            font-size: 16.5px;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="con">
+        <h1>Doctor Sign in</h1>
+        <div class="in">
+
+            <input type="text" name="user" placeholder="Enter user name">
+        </div>
+        <div class="in">
+            <input type="password" name="passsword" placeholder="Enter your password">
+        </div>
+        <button type="submit" class="btn">Sign in</button>
+    </div>
+</body>
+
+</html>

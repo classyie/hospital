@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+         body {
+            background: url(bg.jpg) no-repeat;
+            background-size: cover;
+            height: calc(100vh - 80px);
+        }
+
+        h1 {
+
+            color: #67228a;
+            border-bottom: 2px solid #b70000;
+            /* padding: 2px auto; */
+            display: inline-block;
+        }
+
+        .con {
+            /* border: 2px solid #f79191; */
+
+            display: block;
+            width: 447px;
+            margin: auto;
+            font-weight: bold;
+        }
+
+        .con input {
+            background: none;
+            width: 255px;
+            margin: 12px auto;
+            padding: 5px 10px;
+            font-size: 20px;
+            border: none;
+            justify-content: center center;
+            color: black;
+            border-bottom: 2px solid #211818;
+            outline: none;
+        }
+
+        .ag input {
+            width: 55px;
+        }
+
+        .btn {
+            cursor: pointer;
+            border: 2px solid gray;
+            border-radius: 10px;
+        }
+
+        .btn:hover {
+            background-color: violet;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="con">
+        <h1>Sign Up</h1>
+        <div class="in">
+
+            Name : <input type="text" name="name1" placeholder="Enter your Full Name">
+        </div>
+        <div class="in">
+            Email : <input type="email" name="email" placeholder="Enter your email">
+        </div>
+        <div class="in">
+            Contact no.:<input type="text" name="number" placeholder="Enter your contact no.">
+        </div>
+        <div class="in">
+            Age : <input type="number" name="age" placeholder="Enter your age">
+        </div>
+        <div class="in">
+            <div class="ag">
+                Gender: Male <input type="radio" name="mygeder" id="">
+                Female <input type="radio" name="mygeder" id="">
+            </div>
+        </div>
+        <div class="in">
+            Address : <input type="text" name="address" placeholder="Enter your address">
+        </div>
+        <div class="in">
+            <div class="ag">
+
+                Are you 18+ ? <input type="checkbox" name="year">
+            </div>
+        </div>
+        <div class="in">
+            Choose your user name <input type="email" name="user" placeholder="Enter user name">
+        </div>
+        <div class="in">
+            Choose your password <input type="password" name="password" placeholder="Enter user password">
+        </div>
+
+        <input type="submit" value="submit"  class="btn">
+        <input type="reset" value="reset" class="btn">
+    
+
+
+    </div>
+
+</body>
+
+</html>

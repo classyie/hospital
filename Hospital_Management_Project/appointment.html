@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK APPOINTMENT</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0%;
+        }
+        body {
+            background: url(bg.jpg) no-repeat;
+            background-size: cover;
+            height: calc(100vh - 80px);
+        }
+
+        h1 {
+
+            color: #67228a;
+            border-bottom: 2px solid #b70000;
+            display: inline-block;
+        }
+
+        .con {
+            display: block;
+            width: 447px;
+            margin: auto;
+            font-weight: bold;
+        }
+
+        .con input {
+            background: none;
+            width: 255px;
+            margin: 12px auto;
+            padding: 5px 10px;
+            font-size: 17px;
+            border: none;
+            justify-content: center center;
+            color: black;
+            border-bottom: 2px solid #211818;
+            outline: none;
+        }
+
+        .ag input {
+            width: 55px;
+        }
+
+        .btn1 {
+            width: 50%;
+        }
+
+        .btn {
+            cursor: pointer;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 10px;
+        }
+
+        .btn:hover {
+            background-color: violet;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="con">
+        <h1>APPOINTMENT</h1>
+        <div class="in">
+
+            Patient Name : <input type="text" name="name1" placeholder="Enter your Full Name">
+        </div>
+        <div class="in">
+            Email : <input type="email" name="email" placeholder="Enter your email">
+        </div>
+        <div class="in">
+            Contact no.:<input type="text" name="number" placeholder="Enter your contact no.">
+        </div>
+        <div class="in">
+            Age : <input type="number" name="age" placeholder="Enter your age">
+        </div>
+        <div class="in">
+            <div class="ag">
+                Gender: Male <input type="radio" name="mygeder" id="">
+                Female <input type="radio" name="mygeder" id="">
+            </div>
+        </div>
+        <div class="in">
+            Address : <input type="text" name="address" placeholder="Enter your address">
+        </div>
+        Date Of Birth:
+        <span class="inp">
+            <select>
+                <option>Date</option>
+
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+            </select>
+
+            <select>
+                <option>Mon</option>
+
+                <option>jan</option>
+                <option>feb</option>
+                <option>march</option>
+                <option>april</option>
+            </select>
+
+            <select>
+                <option>Year</option>
+
+                <option>1999</option>
+                <option>2000</option>
+                <option>2010</option>
+                <option>2020</option>
+            </select>
+        </span>
+        Hospital Location:
+        <select>
+            <option>Kanpur</option>
+            <option>Lucknow</option>
+            <option>Delhi</option>
+        </select>
+        <br><br>
+
+        Prefer date for appointment:
+        <select>
+            <option>Date</option>
+
+            <option>01</option>
+            <option>02</option>
+            <option>03</option>
+            <option>04</option>
+            <option>05</option>
+            <option>06</option>
+            <option>07</option>
+            <option>08</option>
+            <option>09</option>
+            <option>10</option>
+        </select>
+
+        <select>
+            <option>Mon</option>
+
+            <option>jan</option>
+            <option>feb</option>
+            <option>march</option>
+            <option>april</option>
+        </select>
+
+        <select>
+            <option>Year</option>
+
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+        </select>
+        <br><br>
+        Prefer Time:
+        <select>
+            <option>AM</option>
+            <option>PM</option>
+        </select>
+        <br><br>
+        Department:
+        <select>
+            <option>Emergency Department</option>
+            <option>Cardiology Department</option>
+            <option>Neurology Department</option>
+            <option>Oncology Department</option>
+        </select>
+        <div class="in">
+            <div class="ag">
+
+                Are you 18+ ? <input type="checkbox" name="year">
+            </div>
+        </div>
+        <div class="btn1">
+            <input type="submit"  class="btn" value="submit">
+            <input type="reset"  class="btn" value="reset">
+        </div>
+    </div>
+
+</body>
+
+</html>
